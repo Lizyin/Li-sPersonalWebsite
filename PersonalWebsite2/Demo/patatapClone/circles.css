@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Give+You+Glory|Poiret+One|Roboto');
+canvas {
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+
+body, html {
+ height: 100%;
+ margin: 0;
+}
+
+header {
+	background-color: #ffffff;
+	opacity: 50;
+	text-align: center;
+	font-family: 'Give You Glory', cursive;
+	font-size: 1.2rem;
+}

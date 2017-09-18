@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Andada|Cabin+Sketch|Love+Ya+Like+A+Sister');
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: #FFCD38;
+	color: #4A4A4A;
+	font-family: 'Andada', serif;
+}
+
+#container {
+	width: 96%;
+	margin: auto;
+	border: 1px solid pink;
+	vertical-align: middle;
+	background: #F3F3F3;
+}
+
+hr {
+	width: 90%;
+}
+
+#header {
+	width: 100%;
+	text-align: center;
+	color: #785E4D;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+
+#selector {
+	margin-top: 20px;
+	padding: 20px 20px;
+}
+
+#breedSelector {
+	font-size: 16px;
+}
+
+main{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: 20px 20px;
+}
+
+#content {
+	flex-basis: 60%;
+	margin-top: 20px;
+}
+
+#image {
+	flex-basis: 40%;
+	display: flex;
+}
+
+#image img {
+	width: 90%;
+	height: auto;
+	margin: auto;
+	border-radius: 2%;
+}
+
+#breedName {
+	font-size: 1.5rem;
+	line-height: 200%;
+	font-family: 'Cabin Sketch', cursive;
+}
+
+.subtitle {
+	color: #A55540;
+	font-family: 'Cabin Sketch', cursive;
+}
+
+@media only screen and (max-width: 960px) {
+
+main{
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+#image img {
+	margin: auto;
+	width: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+}
+

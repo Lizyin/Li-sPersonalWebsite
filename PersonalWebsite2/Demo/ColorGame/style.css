@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: black;
+	font-family: "Monstserrat", "Avenir";
+}
+
+header {
+	width: 100%;
+	background-color: black;
+	color: white;
+	display: flex;
+}
+
+header h1 {
+	margin-top: 3%;
+	width: 100%;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+}
+
+header h1 span {
+	font-size: 2rem;
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	background-color: white;
+	color: royalblue;
+	text-transform: uppercase;
+	font-size: inherit;
+}
+
+#navContainer {
+	width: 600px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0 1.66%;
+}
+
+#navContainer span {
+	flex-basis: 25%;
+	text-align: center;
+}
+
+
+.optBtn:hover {
+	color: white;
+	background: pink;
+	transition: all 0.8s;
+}
+
+#container {
+	max-width: 600px;
+	height: 600px;
+	margin: 20px auto;
+}
+
+.square {
+	width: 30%;
+	height: 30%;
+	float: left;
+	background-color: white;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: all 0.8s;
+}
+
+/* Below are classes used in javaScript */
+.selected {
+	background-color: pink;
+}
+

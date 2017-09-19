@@ -1377,6 +1377,10 @@ section.section-portfolio .portfolio-overlay .portfolio-modal .modal-main .right
   z-index: 1;
   position: relative;
 }
+
+#mutual-fund-grid{
+  width: 66.66%;
+}
 section.section-portfolio .portfolio-overlay .portfolio-modal.opened {
   -webkit-transform: scale(1);
   -o-transform: scale(1);

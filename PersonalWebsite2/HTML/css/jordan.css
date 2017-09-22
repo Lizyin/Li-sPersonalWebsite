@@ -1103,6 +1103,12 @@ section.section-skills-knowledge h3 + ul > li span.highlight {
   margin-left: 1em;
   margin-top: -10px;
 }
+section #mutual-fund-grid {
+  width: 66%;
+}
+section #returnlySys-grid {
+  width: 66%;
+}
 section.section-portfolio {
   position: relative;
   overflow: hidden;
@@ -1376,10 +1382,6 @@ section.section-portfolio .portfolio-overlay .portfolio-modal .modal-main .left,
 section.section-portfolio .portfolio-overlay .portfolio-modal .modal-main .right {
   z-index: 1;
   position: relative;
-}
-
-#mutual-fund-grid{
-  width: 66.66%;
 }
 section.section-portfolio .portfolio-overlay .portfolio-modal.opened {
   -webkit-transform: scale(1);
@@ -2170,7 +2172,7 @@ section.section-contact > .right ul.connect > li {
     margin-top: 10px;
   }
   section.section-portfolio .grid .grid-item {
-    width: 100%;
+    max-width: 100%;
   }
   section.section-contact > .left .contact-main {
     padding: 40px;

@@ -48,19 +48,19 @@ CSS Flex (Prefixed)
 @keyframes scroll-down {
   0%,
   100% {
-    border-color: #378a8b;
+    border-color: #dd940d;
   }
   50% {
-    border-color: #c1e6e7;
+    border-color: #fceed3;
   }
 }
 @-webkit-keyframes scroll-down {
   0%,
   100% {
-    border-color: #378a8b;
+    border-color: #dd940d;
   }
   50% {
-    border-color: #c1e6e7;
+    border-color: #fceed3;
   }
 }
 iframe {
@@ -96,7 +96,7 @@ iframe {
   background-color: #999999;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #78c9ca;
+  background-color: #f7c972;
 }
 .uppercase {
   text-transform: uppercase;
@@ -124,7 +124,7 @@ iframe {
   transform: translateZ(0);
 }
 .bgPrimaryColor {
-  background-color: #54BABB;
+  background-color: #f4b642;
   color: #fff;
 }
 .bgPrimaryColor h1,
@@ -176,7 +176,7 @@ a:visited:after {
   width: 100%;
   bottom: -4px;
   height: 2px;
-  background-color: #54BABB;
+  background-color: #f4b642;
   -webkit-transform: scale3d(0,1,1);
   -o-transform: scale3d(0,1,1);
   -ms-transform: scale3d(0,1,1);
@@ -204,7 +204,7 @@ a:focus:after {
 }
 input[type='submit'],
 a.btn {
-  background-color: #54BABB;
+  background-color: #f4b642;
   color: #fff;
   border-width: 0;
   font-size: 1em;
@@ -262,19 +262,19 @@ input[type='submit']:hover,
 a.btn:hover,
 input[type='submit']:active,
 a.btn:active {
-  background-color: #3f9c9d;
+  background-color: #f1a312;
   text-decoration: none;
   color: #fff;
   box-shadow: none;
 }
 a.btn-outline {
   background-color: transparent;
-  box-shadow: inset 0 0 0 2px rgba(84, 186, 187, 0.4);
-  color: #54BABB;
+  box-shadow: inset 0 0 0 2px rgba(244, 182, 66, 0.4);
+  color: #f4b642;
 }
 a.btn-outline:link,
 a.btn-outline:visited {
-  color: #54BABB;
+  color: #f4b642;
 }
 a.btn-outline:link:after,
 a.btn-outline:visited:after {
@@ -282,7 +282,7 @@ a.btn-outline:visited:after {
 }
 a.btn-outline:hover,
 a.btn-outline:active {
-  background-color: #3f9c9d;
+  background-color: #f1a312;
   text-decoration: none;
   color: #fff;
   box-shadow: none;
@@ -294,7 +294,7 @@ a.btn-sm {
 }
 span.highlight {
   display: inline-block;
-  background-color: #54BABB;
+  background-color: #f4b642;
   color: #fff;
   border-radius: 4px;
   font-family: 'Roboto', sans-serif;
@@ -380,7 +380,7 @@ ul.social > li {
   transition: background-color 0.3s ease;
 }
 ul.social > li:hover {
-  background-color: #3f9c9d;
+  background-color: #f1a312;
 }
 ul.social > li a:link:after,
 ul.social > li a:visited:after {
@@ -455,7 +455,7 @@ nav ul.menu > li a:visited.current:before {
   content: '';
   display: block;
   border-top: 10px solid transparent;
-  border-left: 20px solid #54BABB;
+  border-left: 20px solid #f4b642;
   border-bottom: 10px solid transparent;
 }
 nav ul.menu > li a:link:after,
@@ -464,7 +464,7 @@ nav ul.menu > li a:visited:after {
 }
 nav ul.menu > li a:hover,
 nav ul.menu > li a:active {
-  color: #54BABB;
+  color: #f4b642;
 }
 nav button.open-menu {
   position: absolute;
@@ -720,7 +720,7 @@ section.section-hero .btm ul.connect > li {
   transition: background-color 0.3s ease;
 }
 section.section-hero .btm ul.connect > li:hover {
-  background-color: #3f9c9d;
+  background-color: #f1a312;
 }
 section.section-hero .btm ul.connect > li a:link,
 section.section-hero .btm ul.connect > li a:visited {
@@ -742,7 +742,7 @@ section.section-hero svg.hero-triangles {
   width: 33%;
 }
 section.section-hero svg.hero-triangles > .primary-triangle {
-  fill: #54BABB;
+  fill: #f4b642;
 }
 section.section-hero svg.hero-triangles > .gray-triangle {
   fill: #000;
@@ -773,7 +773,7 @@ section.section-about-me svg.triangle {
   z-index: 1;
 }
 section.section-about-me svg.triangle > path {
-  fill: #54BABB;
+  fill: #f4b642;
   opacity: .5;
 }
 section.section-about-me .profile-pic {
@@ -814,7 +814,7 @@ section.section-about-me .details ul {
   padding: 0;
 }
 section.section-about-me .details ul > li .field-title {
-  color: #54BABB;
+  color: #f4b642;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -862,7 +862,7 @@ section.section-experience-education svg.waves {
   z-index: 1;
 }
 section.section-experience-education svg.waves > path {
-  fill: #54BABB;
+  fill: #f4b642;
 }
 section ul.timeline {
   list-style-type: none;
@@ -898,7 +898,7 @@ section ul.timeline > li h3 {
   font-size: 1.5em;
 }
 section ul.timeline > li h4 {
-  color: #aadddd;
+  color: #fadba1;
   font-size: .9em;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -911,7 +911,7 @@ section ul.timeline > li .date {
   font-family: 'Roboto', sans-serif;
 }
 section ul.timeline > li p {
-  color: #cceaeb;
+  color: #fce9c6;
 }
 section ul.timeline > li:before,
 section ul.timeline > li:after,
@@ -924,7 +924,7 @@ section ul.timeline > li .icon {
   transform: translateY(-50%);
   content: '';
   display: block;
-  background-color: #54BABB;
+  background-color: #f4b642;
 }
 section ul.timeline > li .icon {
   z-index: 1;
@@ -952,7 +952,7 @@ section ul.timeline > li .icon:after {
   border-radius: 20px;
   box-shadow: 0 0 0 6px #fff;
   top: 50%;
-  background-color: #54BABB;
+  background-color: #f4b642;
 }
 section ul.timeline > li:before {
   width: 40px;
@@ -1064,7 +1064,7 @@ section.section-skills-knowledge .triangle:before {
 section.section-skills-knowledge .skill-icon {
   text-align: center;
   font-size: 77px;
-  color: #54BABB;
+  color: #f4b642;
   line-height: 1;
   margin-bottom: .2em;
 }
@@ -1122,7 +1122,7 @@ section.section-portfolio:after {
   left: 0;
   width: 350px;
   height: 350px;
-  background-color: #479e9f;
+  background-color: #cf9b38;
   -webkit-transform-origin: 0 bottom;
   transform-origin: 0 bottom;
   -webkit-transform: rotate(45deg);
@@ -1138,8 +1138,8 @@ section.section-portfolio:after {
   transform: rotate(135deg);
   width: 270px;
   height: 270px;
-  background-color: #54BABB;
-  box-shadow: 0 0 0 1px #54BABB;
+  background-color: #f4b642;
+  box-shadow: 0 0 0 1px #f4b642;
 }
 section.section-portfolio > * {
   z-index: 1;
@@ -1169,7 +1169,7 @@ section.section-portfolio .portfolio-overlay:before {
   display: block;
   content: '';
   border: 4px solid rgba(255, 255, 255, 0.1);
-  border-top: 4px solid #54BABB;
+  border-top: 4px solid #f4b642;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -1203,7 +1203,7 @@ section.section-portfolio .portfolio-overlay .portfolio-modal ul.modal-nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #54BABB;
+  background-color: #f4b642;
   color: #fff;
   display: -webkit-flex;
   display: flex;
@@ -1237,7 +1237,7 @@ section.section-portfolio .portfolio-overlay .portfolio-modal ul.modal-nav:befor
   -o-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  background-color: #54BABB;
+  background-color: #f4b642;
   width: 60px;
   height: 60px;
   box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.2);
@@ -1260,14 +1260,14 @@ section.section-portfolio .portfolio-overlay .portfolio-modal ul.modal-nav > li 
   width: 0;
   height: 40px;
   line-height: 40px;
-  background-color: #54BABB;
+  background-color: #f4b642;
   z-index: 2;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 section.section-portfolio .portfolio-overlay .portfolio-modal ul.modal-nav > li:hover {
-  background-color: #3f9c9d;
+  background-color: #f1a312;
 }
 section.section-portfolio .portfolio-overlay .portfolio-modal ul.modal-nav > li.enabled {
   width: 40px;
@@ -1316,7 +1316,7 @@ section.section-portfolio .portfolio-overlay .portfolio-modal .modal-main .left 
   margin-bottom: 0;
 }
 section.section-portfolio .portfolio-overlay .portfolio-modal .modal-main .left ul > li h3 {
-  color: #54BABB;
+  color: #f4b642;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 1.4em;
@@ -1398,7 +1398,7 @@ section.section-portfolio > svg.triangle {
   height: auto;
 }
 section.section-portfolio > svg.triangle > path {
-  fill: #54BABB;
+  fill: #f4b642;
 }
 section.section-portfolio h2 {
   color: #fff;
@@ -1422,7 +1422,7 @@ section.section-portfolio ul.portfolio-cats > li:last-child {
 }
 section.section-portfolio ul.portfolio-cats > li a.current:link,
 section.section-portfolio ul.portfolio-cats > li a.current:visited {
-  color: #54BABB;
+  color: #f4b642;
 }
 section.section-portfolio .grid {
   width: calc(100% + 16px);
@@ -1490,9 +1490,9 @@ section.section-portfolio .grid .grid-item a:visited.portfolio-external-link {
 }
 section.section-portfolio .grid .grid-item a:hover,
 section.section-portfolio .grid .grid-item a:active {
-  background-color: #54BABB;
+  background-color: #f4b642;
   color: #fff;
-  box-shadow: 0 0 0 1px #54BABB;
+  box-shadow: 0 0 0 1px #f4b642;
 }
 section.section-portfolio .grid .grid-item img {
   width: 100%;
@@ -1583,7 +1583,7 @@ section.section-testimonials .testimonial .person:after {
   height: 50px;
   width: 50px;
   margin-top: -25px;
-  background-color: #54BABB;
+  background-color: #f4b642;
   z-index: 0;
 }
 section.section-testimonials .testimonial .person:after {
@@ -1602,7 +1602,7 @@ section.section-testimonials .testimonial .person .profile-pic {
   width: 120px;
   height: 120px;
   border-radius: 100%;
-  box-shadow: 0 0 0 5px #54BABB;
+  box-shadow: 0 0 0 5px #f4b642;
   position: relative;
   overflow: hidden;
 }
@@ -1697,8 +1697,8 @@ section.section-design-process ul.procedure li .process-main .process-icon {
   height: 140px;
   position: relative;
   background-color: #fff;
-  color: #54BABB;
-  box-shadow: inset 0 0 0 4px #54BABB, 0 0 0 4px #fff;
+  color: #f4b642;
+  box-shadow: inset 0 0 0 4px #f4b642, 0 0 0 4px #fff;
   border-radius: 100%;
   margin: 0 auto .2em;
   -webkit-transition: box-shadow 0.3s ease;
@@ -1718,7 +1718,7 @@ section.section-design-process ul.procedure li .process-main .process-icon:after
   width: 100%;
   height: 100%;
   border-radius: 100%;
-  border: 4px dashed #54BABB;
+  border: 4px dashed #f4b642;
   animation: spin 5s linear infinite;
   animation-play-state: paused;
 }
@@ -1733,7 +1733,7 @@ section.section-design-process ul.procedure li .process-main .process-icon > spa
 }
 section.section-design-process ul.procedure li .process-main h3 {
   text-align: center;
-  color: #54BABB;
+  color: #f4b642;
   margin-top: .8em;
   margin-bottom: .6em;
   font-size: 1.5em;
@@ -1782,7 +1782,7 @@ section.section-pricing .pricing-list ul.pricing-plan > li.pricing-header {
 }
 section.section-pricing .pricing-list ul.pricing-plan > li.pricing-header .ribbon {
   position: absolute;
-  background-color: #3f9c9d;
+  background-color: #f1a312;
   font-family: 'Roboto', sans-serif;
   font-size: .7em;
   text-transform: uppercase;
@@ -1814,7 +1814,7 @@ section.section-pricing .pricing-list ul.pricing-plan.pricing-plan-big {
 }
 section.section-pricing .pricing-list ul.pricing-plan.pricing-plan-big .pricing-header {
   box-shadow: none;
-  background-color: #54BABB;
+  background-color: #f4b642;
   color: #fff;
   padding: 2em 1em;
 }
@@ -1833,7 +1833,7 @@ section.section-contact > .left {
   position: relative;
 }
 section.section-contact > .left a.map-view-switch {
-  background-color: #54BABB;
+  background-color: #f4b642;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
@@ -1876,7 +1876,7 @@ section.section-contact > .left a.map-view-switch:visited:after {
 }
 section.section-contact > .left a.map-view-switch:hover,
 section.section-contact > .left a.map-view-switch:active {
-  background-color: #3f9c9d;
+  background-color: #f1a312;
 }
 section.section-contact > .left .map-canvas {
   position: absolute;
@@ -1924,7 +1924,7 @@ section.section-contact > .left .contact-main #message p {
 }
 section.section-contact > .left .contact-main #message p.error {
   margin: 1em 0;
-  color: #54BABB;
+  color: #f4b642;
   text-align: right;
 }
 section.section-contact > .left .contact-main .contact-info {
@@ -2035,7 +2035,7 @@ section.section-contact > .left .contact-main form > ul > li textarea.focused + 
 section.section-contact > .right {
   -webkit-flex: 0 0 80px;
   flex: 0 0 80px;
-  background-color: #54BABB;
+  background-color: #f4b642;
 }
 section.section-contact > .right ul.connect {
   list-style-type: none;
@@ -2060,7 +2060,7 @@ section.section-contact > .right ul.connect a:visited:after {
 }
 section.section-contact > .right ul.connect a:hover,
 section.section-contact > .right ul.connect a:active {
-  background-color: #3f9c9d;
+  background-color: #f1a312;
 }
 section.section-contact > .right ul.connect > li {
   font-size: 2em;
@@ -2085,7 +2085,7 @@ section.section-contact > .right ul.connect > li {
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #54BABB;
+  background: #f4b642;
 }
 /*------------------------------------------------------------------
 [7. Responsiveness]
@@ -2192,7 +2192,7 @@ section.section-contact > .right ul.connect > li {
     margin-bottom: 2em;
   }
   section.section-portfolio h2 {
-    text-shadow: 0 0 2px #479e9f, 0 0 5px #479e9f;
+    text-shadow: 0 0 2px #cf9b38, 0 0 5px #cf9b38;
   }
   section.section-portfolio ul.portfolio-cats {
     margin-bottom: 1em;
